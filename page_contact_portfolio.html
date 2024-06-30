@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <meta charset="'utf-8"/>
+        <title>Portfolio Jonas Brisson</title>
+        <meta name="description" content="page de contact du portfolio de présentation de Jonas Brisson"/>
+        <meta name="'keywords" content=""/>
+        <meta name="author" content="Brisson Jonas"/>
+        <link rel="stylesheet" href="page_contact_portfolio.css"/>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </head>
+    <body>
+        <nav class="dropdown">
+            <a href="index.html" class="btn btn-outline-light" role="button">Accueil</a>
+            <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown">Projets</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page_projets_portfolio.html#1">Sudoku (langage C)</a></li>
+                <li><a class="dropdown-item" href="page_projets_portfolio.html#2">Sudoku avec backtracking (langage C)</a></li>
+                <li><a class="dropdown-item" href="page_projets_portfolio.html#3">Générateur de documentation (Docker)</a></li>
+                <li><a class="dropdown-item" href="page_projets_portfolio.html#4">Conception d'un BDD (SQL)</a></li>
+                <li><a class="dropdown-item" href="page_projets_portfolio.html#5">Création d'un site Web (HTML5/CSS3)</a></li>
+                <li><a class="dropdown-item" href="page_projets_portfolio.html#6">Présentation d'une entreprise</a></li>
+            </ul>
+            <a href="page_formation_portfolio.html" class="btn btn-outline-light" role="button">Formations</a>
+            <a href="page_contact_portfolio.html" class="btn btn-outline-light" role="button">Contact</a>
+        </nav>
+        <main>
+            <form name = "formulaire de contact" id="formulaire">
+                <fieldset>
+                    <legend>Vos informations :</legend>
+                    <section>
+                        <article id="nom_prenom">
+                            <label for="nom" id="l_nom">Votre nom* :</label>
+                            <input type="text" id="nom" name="Nom" autofocus required/>
+
+                            <label for="prenom">Votre prénom* :</label>
+                            <input type="text" id="prenom" name="Prenom" required/>
+                        </article>
+                        <article id="mail">
+                            <label for="mail">Votre adresse mail* :</label>
+                            <input type="email" id="Mail" name="Adresse Mail" required/>
+                        </article>
+                        <article id="ville_entreprise">
+                            <label for="entreprise" id="l_entreprise">Votre entreprise* :</label>
+                            <input type="text" id="entreprise" name="Entreprise" required/>
+
+                            <label for="ville">Votre ville* :</label>
+                            <input type="text" id="ville" name="Ville" required placeholder="Ex : Brest"/>
+                        </article>
+                    </section>
+                    <legend>Votre message* :</legend>
+                    <section>
+                        <textarea type="text" id="message" name="Message" required></textarea>
+                        <aside>
+                            <input type="submit" value="Envoyer" class="btn btn-outline-light" onClick="envoyerMail();">
+                            <input type="reset" value="Annuler" class="btn btn-outline-light">
+                        </aside>
+                    </section>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <section>
+                <article>
+                    <p>Ma page LinkdIn :</p>
+                    <a href="https://www.linkedin.com/in/jonas-brisson-79b99a2b7/"><img src="images/linkedin.png" title="cliquez pour allez sur ma page LinkdIn" alt="lien vers page LinkdIn Jonas Brisson"></a>
+                </article>
+                <article>
+                    <p>Télécharger mon CV :</p>
+                    <a href="images/CV_Brisson_Jonas.pdf"><img src="images/téléchargement.png" title="cliquez ici pour télécharger mon CV" alt="bouton pour télécharger le CV de Jonas Brisson"></a>
+                </article>
+            </section>
+            <p>Créateur : Jonas Brisson</p>
+        </footer>
+        <script type="text/javascript">
+            function envoyerMail() {
+                var nom = document.getElementById("nom").value;
+                var prenom = document.getElementById("prenom").value;
+                var mail = document.getElementById("Mail").value;
+                var entreprise = document.getElementById("entreprise").value;
+                var ville = document.getElementById("ville").value;
+                var messageForm = document.getElementById("message").value;
+                var corps = `Le nom : ${nom} - Le prénom ${prenom} -  Son adresse mail : ${mail} - Son entreprise : ${entreprise} - La ville : ${ville} - Le message : ${messageForm}`
+                
+                if(!mail.includes('@')){
+                    alert("L'email n'est pas valide");
+                }else if (nom === "" || prenom === "" || mail === "" || entreprise === "" || ville === "" || messageForm === ""){
+                    alert("Un ou plusieurs champs nécessaires n'ont pas été remplis");
+                }else{
+                    Email.send({
+                    SecureToken : "50033f0d-759f-428c-b8c4-1f8be6cdda44",
+                    To : 'jonas.brisson@etudiant.univ-rennes1.fr',
+                    From : "jonas.brisson@etudiant.univ-rennes1.fr",
+                    Subject : "Email de contact Portfolio",
+                    Body : corps
+                    }).then(
+                        alert("Le contenu du formulaire a bien été envoyé")
+                    )
+                }
+            }
+        </script>
+    </body>
+</html>       
