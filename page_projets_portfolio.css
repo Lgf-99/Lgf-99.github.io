@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+html{
+    height: 100%;
+}
+
+html > body{
+    margin: 0;
+    font-family: "Jockey One", Arial, Helvetica;
+    position: relative;
+    padding-bottom: 14rem;
+    min-height: 100%;
+}
+
+nav{
+    background-color: #233860;
+    height: 8rem;
+    font-size: 2.5rem;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+nav > a.btn-outline-light{
+    width: 15rem;
+    height: 4.2rem;
+    margin-right: 4rem;
+    padding: 0.7rem;
+    font-size: 1.7rem;
+    --bs-btn-hover-color: #233860;
+}
+
+nav > button.dropdown-toggle{
+    font-size: 1.7rem;
+    width: 15rem;
+    height: 4.1rem;
+    margin-right: 4rem;
+}
+
+nav > button.dropdown-toggle:hover{
+    color: #233860;
+}
+
+nav > ul > li > a.dropdown-item{
+    color: #233860;
+    font-family: "Jockey One", Arial, Helvetica;
+    font-size: 1.1rem;
+}
+
+main{
+    margin: 2rem;
+    color: #233860;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main > a{
+    width: 35rem;
+    text-decoration: none;
+    color: #233860;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+main > a:hover{
+    transform: scale(1.02);
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > a > article > figure > img{
+    width: 34.5rem;
+    margin-bottom: 1.5rem;
+    border-style: solid;
+    border-color: #233860;
+    border-width: 5px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-radius: 5px 5px 0 0;
+}
+
+figcaption{
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+main > a > article > figure > p{
+    margin: 1rem;
+    margin-top: 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main > p > a{
+    text-decoration: none;
+    color: #233860;
+    font-size: 1.4rem;
+}
+
+main > p > a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #233860;
+    color: white;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 14rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer > section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer > p{
+    margin: 0;
+    position: relative;
+    top : 8rem;
+    height: 2rem;
+    font-size: 1.8rem;
+}
+
+footer > section > article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > section > article > p{
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+footer > section > article + article{
+    margin-top: 2.3rem;
+}
+
+footer > section > article > a > img{
+    width: 3.7rem;
+    position: relative;
+    right: 1.2rem;
+}
+
+footer > section > article + article > a > img{
+    width: 3.5rem;
+    position: relative;
+    left: 1rem;
+}

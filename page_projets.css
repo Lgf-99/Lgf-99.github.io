@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+html{
+    height: 100%;
+}
+
+html > body{
+    margin: 0;
+    font-family: "Jockey One", Arial, Helvetica;
+    position: relative;
+    padding-bottom: 14rem;
+    min-height: 100%;
+}
+
+nav{
+    background-color: #233860;
+    height: 8rem;
+    font-size: 2.5rem;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+nav > a.btn-outline-light{
+    width: 15rem;
+    height: 4.2rem;
+    margin-right: 4rem;
+    padding: 0.7rem;
+    font-size: 1.7rem;
+    --bs-btn-hover-color: #233860;
+}
+
+nav > button.dropdown-toggle{
+    font-size: 1.7rem;
+    width: 15rem;
+    height: 4.1rem;
+    margin-right: 4rem;
+}
+
+nav > button.dropdown-toggle:hover{
+    color: #233860;
+}
+
+nav > ul > li > a.dropdown-item{
+    color: #233860;
+    font-family: "Jockey One", Arial, Helvetica;
+    font-size: 1.1rem;
+}
+
+main{
+    margin: 2rem;
+    color: #233860;
+}
+
+main > section > h2{
+   font-size: 2.2rem; 
+   margin-bottom: 2rem;
+}
+
+main > section > h3{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+main > section > div > div.carousel-inner{
+    width: 60rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+main > section > div > button{
+    filter: invert(100%);
+}
+
+main > section > p{
+    font-size: 1.2rem;
+}
+
+main > section > h4{
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+main > section + hr + section{
+    display: flex;
+    flex-direction: row;
+}
+
+main > section + hr{
+    color: #233860;
+    border-width: 2px;
+    opacity: 0.9;
+}
+
+main > section + hr + section > article > p{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+main > section + hr + section > article > ul{
+    padding: 0;
+    margin-left: 1.3rem;
+    margin-right: 4rem;
+}
+
+main > section + hr + section > article > ul > li{
+    font-size: 1.05rem;
+}
+
+footer{
+    background-color: #233860;
+    color: white;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 14rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer > section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer > p{
+    margin: 0;
+    position: relative;
+    top : 8rem;
+    height: 2rem;
+    font-size: 1.8rem;
+}
+
+footer > section > article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > section > article > p{
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+footer > section > article + article{
+    margin-top: 2.3rem;
+}
+
+footer > section > article > a > img{
+    width: 3.7rem;
+    position: relative;
+    right: 1.2rem;
+}
+
+footer > section > article + article > a > img{
+    width: 3.5rem;
+    position: relative;
+    left: 1rem;
+}

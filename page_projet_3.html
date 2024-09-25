@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Portfolio Jonas Brisson</title>
+        <meta name="description" content="page de présentation des projets du portfolio de présentation de Jonas Brisson"/>
+        <meta name="'keywords" content=""/>
+        <meta name="author" content="Brisson Jonas"/>
+        <link rel="stylesheet" href="page_projets.css"/>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    </head>
+    <body>
+        <nav class="dropdown">
+            <a href="index.html" class="btn btn-outline-light" role="button">Accueil</a>
+            <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown">Projets</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page_projets_portfolio.html">Tous les projets</a></li>
+                <li><a class="dropdown-item" href="page_projet_1.html">Logiciel de réservation</a></li>
+                <li><a class="dropdown-item" href="page_projet_2.html">Sudoku automatisé</a></li>
+                <li><a class="dropdown-item" href="page_projet_3.html">Générateur de documentation</a></li>
+                <li><a class="dropdown-item" href="page_projet_4.html">Conception d'un BDD et statistiques</a></li>
+                <li><a class="dropdown-item" href="page_projet_5.html">Création d'un site Web</a></li>
+                <li><a class="dropdown-item" href="page_projet_6.html">Organisation d'un évènement de team building</a></li>
+            </ul>
+            <a href="page_formation_portfolio.html" class="btn btn-outline-light" role="button">Formation</a>
+            <a href="page_contact_portfolio.html" class="btn btn-outline-light" role="button">Contact</a>
+        </nav>
+        <main>
+            <section>
+                <h2>Projet de création d'un volume docker qui créé automatiquement des documentations PDF</h2>
+                <h3>Dans le cadre de la compétence 3 : Installer et configurer un poste de travail.</h3>
+                <div id="carousel3" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/3/utilisateur.png" class="d-block w-100" alt="image de la documentation utilisateur" title="exemple de documentation utilisateur complétée avec du lorem ipsum">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/3/technique.png" class="d-block w-100" alt="image de la documentation technique" title="exemple de documentation technique complétée avec du lorem ipsum">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/3/bash.png" class="d-block w-100" alt="image du script bash" title="Le script bash qui permet de créer le volume, les conteneurs et d'exécuter les différents scripts">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Précédent</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Suivant</span>
+                    </button>
+                </div>
+                <h4>Résumé du projet :</h4>
+                <p>Ce projet par groupe de cinq avait pour but de créer, à l'aide de deux générateurs et de Docker une documentation technique et une documentation utilisateur à partir de codes source en C.</p>
+                <p>
+                    - La première partie de ce projet avait pour but de créer deux générateurs de documentation, un générateur en PHP qui analyse chaque code source fourni et qui va créer un fichier
+                    HTML de documentation technique. Le deuxième générateur PHP va créer un fichier HTML de documentation utilisateur pour chaque code source.
+                </p>
+                <p>
+                    - La deuxième partie de ce projet avait pour but de créer un troisième générateur qui grâce à un conteneur Docker et un script Bash va créer deux fichiers PDF avec les 
+                    deux documentations au format HTML créées précédemment. Nous avons ensuite créé un deuxième script Bash qui avait pour but de regrouper les deux documentations PDF 
+                    créées et les codes sources dans une archive qui sera renvoyée à l'utilisateur en fin de traitement. Enfin, nous avons créé un troisième script Bash (dernière image du 
+                    carrousel) qui, grâce à un volume Docker qui englobait tous nos conteneurs, nous permettait d'automatiser le processus. L'utilisateur déposait les codes sources commentés et 
+                    écrits en C, les documentations étaient créées, puis converties au format PDF avant d'être renvoyées dans une archive avec les codes source. 
+                </p>
+            </section>
+            <hr>
+            <section>
+                <article>
+                    <p>Acquis :</p>
+                    <ul>
+                        <li>Aisance avec le PHP</li>
+                        <li>Aisance avec le Bash</li>
+                        <li>Utilisation de Docker</li>
+                        <li>Création de documentation</li>
+                        <li>Travail en grande équipe</li>
+                    </ul>
+                </article>
+                <article>
+                    <p>Outils et langages utilisés :</p>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Bash</li>
+                        <li>Visual studio Code</li>
+                        <li>GitLab / GitHub</li>
+                        <li>Docker</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <article>
+                    <p>Ma page LinkdIn :</p>
+                    <a href="https://www.linkedin.com/in/jonas-brisson-79b99a2b7/"><img src="images/linkedin.png" title="cliquez pour allez sur ma page LinkdIn" alt="lien vers page LinkdIn Jonas Brisson"></a>
+                </article>
+                <article>
+                    <p>Télécharger mon CV :</p>
+                    <a href="images/CV_Brisson_Jonas.pdf"><img src="images/téléchargement.png" title="cliquez ici pour télécharger mon CV" alt="bouton pour télécharger le CV de Jonas Brisson"></a>
+                </article>
+            </section>
+            <p>Créateur : Jonas Brisson</p>
+        </footer>
+    </body>
+</html>
