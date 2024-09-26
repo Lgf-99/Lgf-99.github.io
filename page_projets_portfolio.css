@@ -104,13 +104,13 @@ main > a > article > figure > p{
     text-align: center;
 }
 
-main > a{
+#prog{
     text-decoration: none;
     color: #233860;
     font-size: 1.4rem;
 }
 
-main > a:hover{
+#prog:hover{
     text-decoration: underline;
 }
 
