@@ -60,7 +60,7 @@ main{
 }
 
 main > a{
-    width: 35rem;
+    width: 48%;
     text-decoration: none;
     color: #233860;
     border-style: solid;
@@ -81,7 +81,7 @@ figure{
 }
 
 main > a > article > figure > img{
-    width: 34.5rem;
+    width: 100%;
     margin-bottom: 1.5rem;
     border-style: solid;
     border-color: #233860;
