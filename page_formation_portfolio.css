@@ -151,3 +151,21 @@ footer > section > article + article > a > img{
     position: relative;
     left: 1rem;
 }
+
+@media screen and (max-width: 850px){
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main > section {
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+    
+    main > section + section{
+        margin: 0;
+    }
+}
