@@ -60,6 +60,7 @@ main{
 
 main > section {
     margin-left: 2rem;
+    width: 43%;
 }
 
 main > section + section {
@@ -78,13 +79,11 @@ main > section > figure {
 }
 
 main > section > figure > img{
-    width: 40rem;
     margin-bottom: 2rem;
 }
 
 main > section > figure > figcaption{
     font-size: 1.2rem;
-    width: 40rem;
 }
 
 main > section > a{
