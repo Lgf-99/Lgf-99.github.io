@@ -78,13 +78,13 @@ main > section > figure {
 }
 
 main > section > figure > img{
-    width: 48rem;
+    width: 40rem;
     margin-bottom: 2rem;
 }
 
 main > section > figure > figcaption{
     font-size: 1.2rem;
-    width: 48rem;
+    width: 40rem;
 }
 
 main > section > a{
