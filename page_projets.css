@@ -65,7 +65,7 @@ main > section > h3{
 }
 
 main > section > div > div.carousel-inner{
-    width: 60rem;
+    width: 70%;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -168,4 +168,33 @@ footer > section > article + article > a > img{
     width: 3.5rem;
     position: relative;
     left: 1rem;
+}
+
+@media screen and (max-width:1235px){
+    main > section > div > div.carousel-inner{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:650px){
+    main > section > h2{
+        font-size: 1.8rem;
+    }
+    
+    main > section > h3{
+        font-size: 1.4em;
+    }
+    
+    main > section > p{
+        font-size: 1rem;
+    }
+    
+    main > section + hr + section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main > section + hr + section > article > ul > li{
+        font-size: 1rem;
+    }
 }
