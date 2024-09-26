@@ -78,7 +78,7 @@ main > section > img{
     margin-right: 5rem;  
 }
 
-main > a{
+main > h1 + section + a{
     height: 5rem;
     margin-left: 0.75rem;
     margin-top: 2rem;
@@ -87,7 +87,7 @@ main > a{
     font-size: 2rem;
 }
 
-main > a:hover{
+main > h1 + section + a:hover{
     text-decoration: underline;
     color: #233860;
 }
