@@ -72,26 +72,22 @@ main > section{
     align-items: center;
     font-size: 1.5rem;
     text-align: justify;
-    min-width: 50rem;
 }
 
 main > section > img{
     margin-right: 5rem;  
 }
 
-main > section + section{
+main > a{
     height: 5rem;
     margin-left: 0.75rem;
     margin-top: 2rem;
-}
-
-main > section + section > a{
     color : #233860;
     text-decoration: none;
     font-size: 2rem;
 }
 
-main > section + section > a:hover{
+main > a:hover{
     text-decoration: underline;
     color: #233860;
 }
