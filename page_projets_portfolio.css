@@ -109,10 +109,12 @@ main > a > article > figure > p{
     color: #233860;
     font-size: 1.4rem;
     margin-top: 2rem;
+    border-style:none;
 }
 
 #prog:hover{
     text-decoration: underline;
+    transform: none;
 }
 
 footer{
