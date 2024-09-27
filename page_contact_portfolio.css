@@ -69,6 +69,7 @@ main > form > fieldset > section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 70%;
 }
 
 main > form > fieldset > section > article{
@@ -119,7 +120,7 @@ main > form > fieldset > section + legend + section{
 
 #message{
     resize: both;
-    width: 50rem;
+    width: 35rem;
     height: 20rem;
     max-width: 100%;
     min-width: 15rem;
