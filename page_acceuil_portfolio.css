@@ -55,6 +55,12 @@ main{
     height:100%;
 }
 
+main > div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
 main > div > h1{
     font-size: 2.5rem;
     color: #233860;
