@@ -177,24 +177,8 @@ footer > section > article + article > a > img{
 }
 
 @media screen and (max-width:650px){
-    main > section > h2{
-        font-size: 1.8rem;
-    }
-    
-    main > section > h3{
-        font-size: 1.4em;
-    }
-    
-    main > section > p{
-        font-size: 1rem;
-    }
-    
     main > section + hr + section{
         display: flex;
         flex-direction: column;
-    }
-    
-    main > section + hr + section > article > ul > li{
-        font-size: 1rem;
     }
 }
