@@ -63,7 +63,7 @@ main > h1{
 main > section{
     display: flex;
     flex-direction:row;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     font-size: 1.5rem;
     text-align: justify;
