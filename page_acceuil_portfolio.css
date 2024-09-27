@@ -7,9 +7,6 @@ html{
 html > body{
     margin: 0;
     font-family: "Jockey One", Arial, Helvetica;
-    position: relative;
-    padding-bottom: 14rem;
-    min-height: 100%;
 }
 
 nav{
