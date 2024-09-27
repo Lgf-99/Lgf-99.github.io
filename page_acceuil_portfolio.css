@@ -9,7 +9,7 @@ html > body{
     font-family: "Jockey One", Arial, Helvetica;
     position: relative;
     padding-bottom: 14rem;
-    height: 100%;
+    min-height: 100%;
 }
 
 nav{
@@ -52,22 +52,15 @@ nav > ul > li > a.dropdown-item{
 main{
     margin: 2rem;
     color: #233860;
-    height:100%;
 }
 
-main > section{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
-
-main > section > h1{
+main > h1{
     font-size: 2.5rem;
     color: #233860;
     margin-bottom: 2rem;
 }
 
-main > section > article{
+main > section{
     display: flex;
     flex-direction:row;
     justify-content: left;
@@ -77,18 +70,18 @@ main > section > article{
     margin-bottom: 2rem;
 }
 
-main > section > article > img{
+main > section > img{
     margin-right: 5rem;  
 }
 
-main > section > a{
+main > a{
     margin-left: 2.8rem;
     color : #233860;
     text-decoration: none;
     font-size: 2rem;
 }
 
-main > section > a:hover{
+main > a:hover{
     text-decoration: underline;
     color: #233860;
 }
