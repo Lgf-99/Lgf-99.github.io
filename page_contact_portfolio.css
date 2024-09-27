@@ -54,6 +54,7 @@ main{
     color: #233860;
     font-weight: 500;
     font-size: 1.5rem;
+    min-width: 550px;
 }
 
 main > form > fieldset > legend{
