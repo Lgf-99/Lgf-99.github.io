@@ -60,7 +60,7 @@ main{
 }
 
 main > a{
-    width: 48%;
+    width: 31%;
     text-decoration: none;
     color: #233860;
     border-style: solid;
@@ -172,6 +172,12 @@ footer > section > article + article > a > img{
     width: 3.5rem;
     position: relative;
     left: 1rem;
+}
+
+@media screen and (max-width:1500px){
+    main > a{
+        width:48%;
+    }
 }
 
 @media screen and (max-width:1000px){
