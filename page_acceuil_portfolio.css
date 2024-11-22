@@ -147,6 +147,10 @@ footer > section > article + article > a > img{
 }
 
 @media screen and (max-width: 1000px){
+    nav > a.btn-outline-light{
+        font-size: 3.4rem;
+    }
+
     main{
         display: flex;
         flex-direction: column;
