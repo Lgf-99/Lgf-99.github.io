@@ -167,6 +167,7 @@ footer > section > article + article > a > img{
     main > section > img{
         margin-bottom: 2rem;
         margin-right: 0;
+        width: 35rem;
     }
     
     main > a {
