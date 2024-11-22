@@ -174,10 +174,12 @@ footer > section > article + article > a > img{
         flex-direction: column;
         justify-content:center;
         align-items: center;
+        min-height: 105rem;
     }
 
     main > h1{
         font-size: 5rem;
+        margin-bottom: 5rem;
     }
     
     main > section {
@@ -187,7 +189,7 @@ footer > section > article + article > a > img{
     }
     
     main > section > img{
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         margin-right: 0;
         width: 35rem;
     }
