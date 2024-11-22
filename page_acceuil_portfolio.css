@@ -148,7 +148,15 @@ footer > section > article + article > a > img{
 
 @media screen and (max-width: 1000px){
     nav > a.btn-outline-light{
-        font-size: 3.4rem;
+        font-size: 3rem;
+    }
+
+    nav > button.dropdown-toggle{
+        font-size: 3rem;
+    }
+
+    nav > ul > li > a.dropdown-item{
+        font-size: 2.5rem;
     }
 
     main{
@@ -180,6 +188,6 @@ footer > section > article + article > a > img{
     }
 
     footer > section > article > p{
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
 }
