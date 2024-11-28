@@ -161,6 +161,7 @@ footer > section > article + article > a > img{
         display: flex;
         justify-content: center;
         align-items: center;
+        border-width: 2px;
     }
 
     nav > button.dropdown-toggle{
@@ -172,6 +173,7 @@ footer > section > article + article > a > img{
         display: flex;
         justify-content: center;
         align-items: center;
+        border-width: 2px;
     }
 
     nav > ul > li > a.dropdown-item{
@@ -183,7 +185,7 @@ footer > section > article + article > a > img{
         flex-direction: column;
         justify-content:center;
         align-items: center;
-        min-height: 105rem;
+        min-height: 95rem;
     }
 
     main > h1{
@@ -213,6 +215,10 @@ footer > section > article + article > a > img{
         top: 7rem;
     }
 
+    footer > section{
+        flex-direction: column-reverse;
+    }
+
     footer > section > article + article{
         margin: 0;
     }
@@ -221,12 +227,12 @@ footer > section > article + article > a > img{
         font-size: 3rem;
     }
 
-    footer > section > article > a > img{
+    footer > section > article > a{
         width: 5rem;
         right: 2.8rem;
     }
 
-    footer > section > article + article > a > img{
+    footer > section > article + article > a{
         width: 4rem;
         left: 1.5rem;
     }
