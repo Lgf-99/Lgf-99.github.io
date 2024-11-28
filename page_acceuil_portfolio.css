@@ -220,11 +220,13 @@ footer > section > article + article > a > img{
     }
 
     footer > section > article{
-        margin-bottom: 2rem;
+        position:relative;
+        top: 0.8rem;
+        margin-top: 2rem;
     }
 
     footer > section > article + article{
-        margin: 0;
+        margin:0;
     }
 
     footer > section > article > p{
@@ -236,8 +238,18 @@ footer > section > article + article > a > img{
         right: 2.8rem;
     }
 
+    footer > section > article > a > img{
+        width: 5rem;
+        right: 1.8rem;
+    }
+
     footer > section > article + article > a{
         width: 4rem;
         left: 1.5rem;
+    }
+
+    footer > section > article + article > a > img{
+        width: 4.8rem;
+        left: 1.2rem;
     }
 }
