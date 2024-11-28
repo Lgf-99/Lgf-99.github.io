@@ -149,20 +149,29 @@ footer > section > article + article > a > img{
 @media screen and (max-width: 1000px){
     nav{
         justify-content: space-between;
+        height: 14rem;
     }
 
     nav > a.btn-outline-light{
         font-size: 3rem;
         width: 13rem;
+        height: 6rem;
         margin: 0;
         padding:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     nav > button.dropdown-toggle{
         width: 12rem;
         font-size: 3rem;
+        height: 6rem;
         padding: 0;
         margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     nav > ul > li > a.dropdown-item{
