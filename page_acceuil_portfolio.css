@@ -176,6 +176,10 @@ footer > section > article + article > a > img{
         border-width: 2px;
     }
 
+    nav > ul.dropdown-menu{
+        inset: 0px auto auto -110px !important;
+    }
+
     nav > ul > li > a.dropdown-item{
         font-size: 2.5rem;
     }
