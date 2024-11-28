@@ -219,6 +219,10 @@ footer > section > article + article > a > img{
         flex-direction: column-reverse;
     }
 
+    footer > section > article{
+        margin-bottom: 2rem;
+    }
+
     footer > section > article + article{
         margin: 0;
     }
