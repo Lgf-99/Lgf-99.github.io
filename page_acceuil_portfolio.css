@@ -178,6 +178,9 @@ footer > section > article + article > a > img{
 
     nav > ul.dropdown-menu{
         inset: 0px auto auto -110px !important;
+        border-style: solid;
+        border-width: 0.5rem;
+        border-color: darkgrey;
     }
 
     nav > ul > li > a.dropdown-item{
