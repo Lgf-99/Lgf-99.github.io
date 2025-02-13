@@ -1,6 +1,6 @@
 nav{
     background-color: #233860;
-    height: 8rem;
+    height: 20%;
     font-size: 2.5rem;
     padding: 1.6rem;
     display: flex;
@@ -38,11 +38,11 @@ nav > ul > li > a.dropdown-item{
 footer{
     background-color: #233860;
     color: white;
-    padding: 1.6rem;
+    padding: 1.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 14rem;
+    height: 20%;
 }
 
 footer > section{
@@ -54,7 +54,7 @@ footer > section{
 footer > p{
     margin: 0;
     position: relative;
-    top : 8rem;
+    top : 6.5rem; 
     height: 2rem;
     font-size: 1.8rem;
 }
@@ -72,7 +72,7 @@ footer > section > article > p{
 }
 
 footer > section > article + article{
-    margin-top: 2.3rem;
+    margin-top: 2rem;
 }
 
 footer > section > article > a > img{
