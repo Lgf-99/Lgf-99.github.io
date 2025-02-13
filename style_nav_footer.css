@@ -42,7 +42,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 20%;
+    height: 25%;
 }
 
 footer > section{
