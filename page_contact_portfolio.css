@@ -116,6 +116,18 @@ main > form > fieldset > section + legend + section > aside > input + input{
 }
 
 @media screen and (max-width: 1250px){
+    main > form > fieldset > legend{
+        font-size: 5rem;
+    }
+
+    main > form > fieldset > section{
+        width: 100%;
+    }
+
+    #l_nom, #l_prenom{
+        font-size: 2.5rem;
+    }
+
     main > form > fieldset > section > article{
         display: flex;
         flex-direction: column;
