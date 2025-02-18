@@ -133,6 +133,10 @@ footer > section > article + article > a > img{
         border-bottom-color: darkgrey;
     }
 
+    footer{
+        height: 20%;
+    }
+
     footer > p{
         font-size: 3rem;
         position: relative;
