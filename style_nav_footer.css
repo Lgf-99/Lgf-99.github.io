@@ -134,23 +134,17 @@ footer > section > article + article > a > img{
     }
 
     footer{
-        height: 20%;
+        height: 12%;
     }
 
     footer > p{
         font-size: 3rem;
         position: relative;
-        top: 7rem;
+        top: 10rem;
     }
 
     footer > section{
         flex-direction: column-reverse;
-    }
-
-    footer > section > article{
-        position:relative;
-        top: 0.8rem;
-        margin-top: 2rem;
     }
 
     footer > section > article + article{
