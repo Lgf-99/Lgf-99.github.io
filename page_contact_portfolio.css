@@ -56,10 +56,6 @@ main > form > fieldset > section > article > input{
     margin-right: 4.2rem;
 }
 
-#l_nom{
-    margin-right: 5rem;
-}
-
 #Mail{
     width: 53.75rem;
 }
@@ -68,12 +64,7 @@ main > form > fieldset > section > article > input{
     width: 20rem;
 }
 
-#l_entreprise{
-    margin-right: 1.7rem;
-}
-
 #entreprise{
-    margin-right: 6.2rem;
     width: 20rem;
 }
 
