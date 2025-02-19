@@ -62,13 +62,13 @@ main > section > a:hover{
     main {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
-        height: 130%;
+        height: 160%;
     }
     
     main > section {
         width: 90%;
+        margin: 0;
     }
     
     main > section + section{
@@ -76,10 +76,20 @@ main > section > a:hover{
     }
 
     main > section > h2{
-        font-size: 5rem;
+        font-size: 7rem;
+        text-align: center;
     }
 
-    main > section > figure > figcaption, main > section > a{
-        font-size: 2.5rem;
+    main > section > figure{
+        margin-bottom: 5.5rem;
+    }
+
+    main > section > figure > figcaption{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    main > section > a{
+        font-size: 3rem;
     }
 }
