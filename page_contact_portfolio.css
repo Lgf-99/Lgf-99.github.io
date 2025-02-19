@@ -116,9 +116,6 @@ main > form > fieldset > section + legend + section > aside > input + input{
 }
 
 @media screen and (max-width: 1250px){
-    main{
-        height: 75%;
-    }
 
     main > form > fieldset > legend{
         font-size: 5rem;
@@ -129,7 +126,7 @@ main > form > fieldset > section + legend + section > aside > input + input{
     }
 
     #l_nom, #l_prenom, #l_mail, #l_entreprise, #l_ville{
-        font-size: 4rem;
+        font-size: 3.5rem;
         text-align: center;
         margin: 0;
     }
