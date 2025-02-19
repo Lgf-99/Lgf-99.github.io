@@ -32,7 +32,7 @@ main > form > fieldset > section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
 }
 
 main > form > fieldset > section > article{
