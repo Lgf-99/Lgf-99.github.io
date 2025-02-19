@@ -51,16 +51,28 @@ main > form > fieldset > section > article > input{
     margin-bottom: 0.75rem;
 }
 
-#nom, #prenom{
+#nom, #prenom, #entreprise, #ville{
     width: 20rem;
+}
+
+#l_ville{
+    margin-right: 2.5rem;
+}
+
+#l_entreprise{
+    margin-right: 1.7rem;
+}
+
+#l_nom{
+    margin-right: 5rem;
+}
+
+#nom, #entreprise{
+    margin-right: 4.1rem;
 }
 
 #Mail{
     width: 53.75rem;
-}
-
-#entreprise, #ville{
-    width: 20rem;
 }
 
 #entreprise{
