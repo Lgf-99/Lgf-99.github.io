@@ -118,14 +118,17 @@ main > form > fieldset > section + legend + section > aside > input + input{
 @media screen and (max-width: 1250px){
     main > form > fieldset > legend{
         font-size: 5rem;
+        text-align: center;
     }
 
     main > form > fieldset > section{
         width: 100%;
     }
 
-    #l_nom, #l_prenom{
-        font-size: 2.5rem;
+    #l_nom, #l_prenom, #l_mail, #l_entreprise, #l_ville{
+        font-size: 4rem;
+        text-align: center;
+        margin: 0;
     }
 
     main > form > fieldset > section > article{
@@ -133,8 +136,8 @@ main > form > fieldset > section + legend + section > aside > input + input{
         flex-direction: column;
     }
     
-    main > form > fieldset > section > #mail > input{
-        width: 70%;
-        min-width: 20rem;
+    input{
+        width: 40rem;
+        height: 5rem;
     }
 }
