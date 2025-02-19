@@ -139,5 +139,6 @@ main > form > fieldset > section + legend + section > aside > input + input{
     #nom, #prenom, #ville, #entreprise, #Mail{
         width: 40rem;
         height: 5rem;
+        margin: 0;
     }
 }
