@@ -39,7 +39,7 @@ main > form > fieldset > section > article{
     margin-bottom: 0.75rem;
 }
 
-main > form > fieldset > section > article + article + article{
+#ville_entreprise{
     margin-bottom: 0;
 }
 
@@ -51,28 +51,28 @@ main > form > fieldset > section > article > input{
     margin-bottom: 0.75rem;
 }
 
-main > form > fieldset > section > #nom_prenom > input{
+#nom, #prenom{
     width: 20rem;
     margin-right: 4.2rem;
 }
 
-main > form > fieldset > section > #nom_prenom > #l_nom{
+#l_nom{
     margin-right: 5rem;
 }
 
-main > form > fieldset > section > #mail > input{
+#Mail{
     width: 53.75rem;
 }
 
-main > form > fieldset > section > #ville_entreprise > input{
+#entreprise, #ville{
     width: 20rem;
 }
 
-main > form > fieldset > section > #ville_entreprise > #l_entreprise{
+#l_entreprise{
     margin-right: 1.7rem;
 }
 
-main > form > fieldset > section > #ville_entreprise > #entreprise{
+#entreprise{
     margin-right: 6.2rem;
     width: 20rem;
 }
