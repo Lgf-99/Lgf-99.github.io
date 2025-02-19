@@ -123,6 +123,8 @@ main > form > fieldset > section + legend + section > aside > input + input{
 
     main > form > fieldset > section{
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     #l_nom, #l_prenom, #l_mail, #l_entreprise, #l_ville{
@@ -137,9 +139,9 @@ main > form > fieldset > section + legend + section > aside > input + input{
     }
     
     #nom, #prenom, #ville, #entreprise, #Mail{
-        width: 40rem;
+        width: 40rem !important;
         height: 5rem;
-        margin: 0;
+        margin: 0 !important;
         font-size: 3rem;
         text-align: center;
     }
