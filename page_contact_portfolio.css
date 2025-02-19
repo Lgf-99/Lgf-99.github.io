@@ -122,7 +122,6 @@ main > form > fieldset > section + legend + section > aside > input + input{
 
     main > form > fieldset > legend{
         font-size: 5rem;
-        text-align: center;
     }
 
     main > form > fieldset > section{
@@ -140,7 +139,7 @@ main > form > fieldset > section + legend + section > aside > input + input{
         flex-direction: column;
     }
     
-    input{
+    #nom, #prenom, #ville, #entreprise, #Mail{
         width: 40rem;
         height: 5rem;
     }
