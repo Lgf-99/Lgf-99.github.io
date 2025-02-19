@@ -63,7 +63,7 @@ main > section > a:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 200%;
+        height: 180%;
     }
     
     main > section {
