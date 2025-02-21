@@ -111,9 +111,10 @@ main > a > article > figure > p{
 
     figcaption{
         font-size: 3.5rem;
+        text-align: center;
     }
 
     p{
-        font-size: 2.5rem;
+        font-size: 2.5rem !important;
     }
 }
