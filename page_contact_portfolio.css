@@ -156,6 +156,9 @@ main > form > fieldset > section + legend + section > aside > input + input{
         width: 55rem;
         font-size: 3rem;
         height: 30rem;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
     }
 
     input.btn-outline-light{
