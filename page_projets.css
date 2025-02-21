@@ -120,14 +120,14 @@ main > section + hr + section > article > ul > li{
     }
 
     .carousel-inner{
-        width: 95%;
+        width: 95% !important;
     }
 
     .carousel-control-prev{
-        left: -4.5rem;
+        left: -4.5rem !important;
     }
 
     .carousel-control-next{
-        right: -4.5rem;
+        right: -4.5rem !important;
     }    
 }
