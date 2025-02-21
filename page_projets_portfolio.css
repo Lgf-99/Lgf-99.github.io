@@ -95,12 +95,20 @@ main > a > article > figure > p{
     }
     
     main > a{
-        width:70%;
+        width:95%;
     }
 
     #prog{
         width:auto;
         margin-top: 4rem;
         margin-bottom: 3rem;
+    }
+
+    figcaption{
+        font-size: 3.5rem;
+    }
+
+    article > figure > p{
+        font-size: 2.5rem;
     }
 }
