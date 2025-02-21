@@ -166,4 +166,8 @@ main > form > fieldset > section + legend + section > aside > input + input{
         height: 6rem !important;
         font-size: 3rem !important;
     }
+
+    aside{
+        justify-content: center;
+    }
 }
