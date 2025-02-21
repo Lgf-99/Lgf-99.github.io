@@ -173,6 +173,6 @@ main > form > fieldset > section + legend + section > aside > input + input{
     }
 
     aside{
-        justify-content: center;
+        justify-content: center !important;
     }
 }
