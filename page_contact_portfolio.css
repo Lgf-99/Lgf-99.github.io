@@ -155,6 +155,7 @@ main > form > fieldset > section + legend + section > aside > input + input{
     #message{
         width: 55rem;
         font-size: 3rem;
+        height: 30rem;
     }
 
     input.btn-outline-light{
