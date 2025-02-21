@@ -84,7 +84,7 @@ main > section + hr + section > article > ul > li{
 
 @media screen and (max-width:1000px){
     main{
-        height: 170%;
+        height: 185%;
     }
 
     h2{
