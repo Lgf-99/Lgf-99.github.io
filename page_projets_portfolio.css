@@ -91,7 +91,7 @@ main > a > article > figure > p{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 310%;
+        height: 350%;
     }
     
     main > a{
