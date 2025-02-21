@@ -83,6 +83,10 @@ main > section + hr + section > article > ul > li{
 }
 
 @media screen and (max-width:1000px){
+    main{
+        height: 170%;
+    }
+
     h2{
         font-size: 4rem !important;
         text-align: center;
