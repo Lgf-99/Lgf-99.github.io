@@ -119,6 +119,10 @@ main > form > fieldset > section + legend + section > aside > input + input{
 
 @media screen and (max-width: 1250px){
 
+    main {
+        height: 100%;
+    }
+
     main > form > fieldset > legend{
         font-size: 5rem;
     }
