@@ -119,12 +119,12 @@ main > section + hr + section > article > ul > li{
         margin:0;
     }
 
-    .carousel-control-next{
-        right: -4.5rem !important;
-    }    
-
     .carousel-inner{
         width: 95% !important;
+    }
+
+    .carousel-control-next{
+        right: -4.5rem !important;
     }
 
     .carousel-control-prev{
