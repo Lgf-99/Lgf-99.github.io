@@ -91,6 +91,7 @@ main > a > article > figure > p{
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 210%;
     }
     
     main > a{
@@ -99,5 +100,7 @@ main > a > article > figure > p{
 
     #prog{
         width:auto;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
     }
 }
