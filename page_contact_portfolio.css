@@ -87,7 +87,8 @@ main > form > fieldset > section + legend + section{
     resize: both;
     width: 35rem;
     height: 20rem;
-    max-width: 100%;
+    max-width: 69.5rem;
+    max-height: 30rem;
     min-width: 15rem;
     min-height: 15rem;
     margin-bottom: 2rem;
