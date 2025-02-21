@@ -118,4 +118,16 @@ main > section + hr + section > article > ul > li{
     section > article + article {
         margin:0;
     }
+
+    .carousel-inner{
+        width: 95%;
+    }
+
+    .carousel-control-prev{
+        left: -4.5rem;
+    }
+
+    .carousel-control-next{
+        right: -4.5rem;
+    }    
 }
