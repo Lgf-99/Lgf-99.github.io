@@ -106,8 +106,4 @@ main > section + hr + section > article > ul > li{
     li{
         font-size: 2.4rem !important;
     }
-
-    main > section + hr + section{
-        margin-left: 1rem;
-    }
 }
