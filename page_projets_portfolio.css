@@ -98,6 +98,10 @@ main > a > article > figure > p{
         width:95%;
     }
 
+    main > a:hover{
+        transform: none;
+    }
+
     #prog{
         width:auto;
         margin-top: 4rem;
