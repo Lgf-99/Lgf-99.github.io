@@ -159,7 +159,7 @@ main > form > fieldset > section + legend + section > aside > input + input{
 
     #message{
         resize: none;
-        width: 55rem;
+        width: 54rem;
         font-size: 3rem;
         height: 30rem;
         border-style: solid;
