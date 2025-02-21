@@ -91,7 +91,7 @@ main > a > article > figure > p{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 210%;
+        height: 310%;
     }
     
     main > a{
@@ -102,6 +102,7 @@ main > a > article > figure > p{
         width:auto;
         margin-top: 4rem;
         margin-bottom: 3rem;
+        font-size: 2.5rem;
     }
 
     figcaption{
